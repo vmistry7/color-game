@@ -4,7 +4,7 @@ Instruction to run
 	- open, game-server in command prompt
 	- run, npm start
 	- server will start
-	- please open the browser and make the request
+	- please open the browser and make the request - http://localhost:5001/
 	- it will show the login page
 	- test user
 		user name: viral
@@ -13,57 +13,10 @@ Instruction to run
 Other Instructions
 
 	- Initially was going to make crossserver but at last end up with same server api and ui structure. You can see dist folder inside game-server folder.
-	- New york and San Francisco Date time, its not done absolutely.
-
+	- game-ui, you will find all react component
 
 
 ##############################################################################################################
-IntialPlans
-
-Viral's Plan to complete Game-App
---------------------------------------------------------------------------------------------------------
-
-- Express app (Server) for api/routes
-	
-	basic routes
-
-		- get: api/login 
-		- post: api/login
-		- post: api/logout
-
-	game routes
-
-		- get: api/game - data : {
-									id: 1, 
-									name: "viral", 
-									wins: 5, 
-									losses: 3, 
-									rgbs :[1, 2, 3, 4, 5, 6],
-									answer: 6, 
-									won: false
-								} 
-								
-		- post: api/game - postData: {id : 1,  won: true/false } - update user wins and loses
-
-			user: {						
-					id: 1, 
-					name: "viral",
-					password: "Password" 
-					wins: 5, 
-					losses: 3
-				};
-
--  React UI
-
-	game ui
-
-		-	/ with login
-		-	/game with react compaonent and logout button on the top.
-
-
-
-Instruction
-------------------------------------------------------------------------------------------------------------------
 
 For folder: game-ui, Please: 
 	run "npm install" and then
