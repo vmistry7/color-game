@@ -1,3 +1,5 @@
+# Instructions to run the app is inside Instruction.txt
+
 # Color Carnival Homework
 
 ## Overview
